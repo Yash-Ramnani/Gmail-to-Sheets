@@ -1,8 +1,8 @@
-\# Gmail to Sheets Automation
+# Gmail to Sheets Automation
 
 
 
-\*\*Made by Yash Ramnani\*\*
+**Made by Yash Ramnani\*\*
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-\## 🚀 Project Overview
+## 🚀 Project Overview
 
 
 
@@ -20,7 +20,7 @@ It connects securely via OAuth 2.0, extracts key email details, and appends them
 
 
 
-\### Pipeline Goal  
+### Pipeline Goal  
 
 Gmail → Python → Google Sheets  
 
@@ -32,7 +32,7 @@ Clean architecture • secure auth • reliable state management
 
 
 
-\## 🧱 High-Level Architecture
+## 🧱 High-Level Architecture
 
 
 
@@ -80,19 +80,19 @@ Data flows one-way from Gmail to Sheets, with a local state file acting as memor
 
 
 
-\## 🛠 Step-by-Step Setup Instructions
+## 🛠 Step-by-Step Setup Instructions
 
 
 
-\### Prerequisites
+### Prerequisites
 
 
 
-\- Python 3.7+  
+- Python 3.7+  
 
-\- Gmail account  
+- Gmail account  
 
-\- Google Cloud project with:
+- Google Cloud project with:
 
 &nbsp; - Gmail API enabled  
 
@@ -104,7 +104,7 @@ Data flows one-way from Gmail to Sheets, with a local state file acting as memor
 
 
 
-\### Installation
+### Installation
 
 
 
@@ -116,7 +116,7 @@ pip install -r requirement.txt
 
 
 
-\## Google Cloud Configuration
+## Google Cloud Configuration
 
 
 
@@ -172,11 +172,11 @@ Token is stored locally for future executions.
 
 
 
-\## Core Logic Explained
+## Core Logic Explained
 
 
 
-\### OAuth Flow
+### OAuth Flow
 
 
 
@@ -218,7 +218,7 @@ processed\_emails.txt
 
 
 
-\### Why this approach?
+### Why this approach?
 
 
 
@@ -232,7 +232,7 @@ Perfect for automation MVPs
 
 
 
-\## Challenges Faced
+## Challenges Faced
 
 
 
@@ -254,7 +254,7 @@ Attachments in same payload
 
 
 
-\## Solution
+## Solution
 
 
 
@@ -268,7 +268,7 @@ Handles real-world messy emails
 
 
 
-\## Limitations
+## Limitations
 
 
 
@@ -286,7 +286,7 @@ Google API rate limits apply
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -314,7 +314,7 @@ gmail-to-sheets/
 
 
 
-\## Conclusion
+## Conclusion
 
 
 
@@ -341,6 +341,7 @@ Tested with live inbox data and performing like a champ.
 Date: January 14, 2026  
 
 Author: Yash Ramnani
+
 
 
 
